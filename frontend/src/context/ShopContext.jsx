@@ -9,7 +9,7 @@ export const ShopContext =createContext();
 const ShopContextProvider = (props)=>{
     const currency = '$';
     const delivery_fee=10;
-    const backendUrl=https://e-commerce-if5p.onrender.com
+    const backendUrl="https://e-commerce-if5p.onrender.com"
     const [cartItems,setCartItems]=useState({});
     const [token,setToken]=useState('');
     const navigate=useNavigate();
